@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Borel', cursive;
+}
+body{
+    /* background-color: black; */
+    transition:2s;
+}
+.main{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:30rem;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+button{
+    width: 100%;
+    background-color:black;
+    color:white;
+    border-radius: 10px;
+    display: block;
+    font-size:25px;
+    margin-top: 5px;
+    padding-top: 15px;
+}
